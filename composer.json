@@ -1,0 +1,22 @@
+{
+    "name": "codeigniter4-xpander/crud",
+    "description": "CodeIgniter 4 Xpander CRUD",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagus A Priambada",
+            "email": "iam.adty@gmail.com"
+        }
+    ],
+    "require": {
+        "codeigniter4-xpander/core": "dev-develop"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "CI4Xpander_CRUD\\": "src/"
+        }
+    }
+}
